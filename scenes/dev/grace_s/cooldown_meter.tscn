@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://deqxygp337amp"]
+
+[ext_resource type="Script" uid="uid://d4jbtbj5hb1ah" path="res://scenes/dev/grace_s/cooldown_meters.gd" id="1_cp4ar"]
+
+[node name="CooldownMeter" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_cp4ar")
+
+[node name="SpecialBar" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_left = 50.0
+offset_right = 267.0
+offset_bottom = 27.0
+
+[node name="SynergyBar" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 50.0
+offset_right = 262.0
+offset_bottom = 77.0
